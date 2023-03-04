@@ -112,4 +112,3 @@ local CreditsSection = Credits:NewSection("Dave_Down")
 
 -- Server 
 local Server = Window:NewTab("Server")
-local ServerSection = Server:NewSection("https://discord.gg/bGmCkphvPq")
