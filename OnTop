@@ -1,0 +1,99 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Downsito Hub by Dave_Down#1571", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("blox fruits")
+
+
+MainSection:NewButton("Mukuro", "autofarm,kill aura,ect", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+local MainSection = Main:NewSection("aim")
+
+MainSection:NewButton("aimbot", "es un poquito de aim que te da ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/diggabrown/main/sidegriddy'))()
+end)
+
+local MainSection = Main:NewSection("KAT")
+
+MainSection:NewButton("owl hub", "esta es una que todos se saben", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+local MainSection = Main:NewSection("jailbreak")
+
+MainSection:NewButton("Vynixius", "de los mejores xd", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+
+local MainSection = Main:NewSection("Michael Zombies")
+
+MainSection:NewButton("Dylan hub", "kill aura,esp,ect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DylanIsAKingL/Lua-Scripts/main/Michaels-ZombiesV2.lua"))()
+end)
+
+local MainSection = Main:NewSection("Phamton Forces")
+
+MainSection:NewButton("Synapse only", "synapse only xdd", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikehalesdev/Public/main/Script.lua"))()
+end)
+
+local MainSection = Main:NewSection("BedWars")
+
+MainSection:NewButton("bedwars by monkey", "normal hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
+end)
+
+local MainSection = Main:NewSection("Shindo life")
+
+MainSection:NewButton("premier", "el todo premium jsjs", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TrustsenseDev/Utilities/main/Premier.lua', true))()
+end)
+
+local MainSection = Main:NewSection("Build a Boat for teasure")
+
+MainSection:NewButton("03koios", "muchas funciones tryhards", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
+end)
+
+local MainSection = Main:NewSection("YBA")
+
+MainSection:NewButton("CuHub", "item farm,auto farm,lucky arrow,ect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItachiPvPUchiha/CuHub/main/yba.lua"))()
+end)
+
+local MainSection = Main:NewSection("DOORS")
+
+MainSection:NewButton("darkrai-X", "item farm, tps, habrir las puertas ect ect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+local MainSection = Main:NewSection("Arcane Odyssey")
+
+MainSection:NewButton("bunny", "item farm, tps,auto farm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/main.lua"))()
+end)
+
+local MainSection = Main:NewSection("MM2")
+
+MainSection:NewButton("eclipseMM2", "pos ya sabes tps,auto farm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end)
+
+MainSection:NewButton("if doesnt work", "variable de eclipse nomas es de otro provedor esta xd", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+local MainSection = Main:NewSection("Pet Sim X")
+
+MainSection:NewButton("zbez hub", "auto farm auto todo xdd", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zbezxderxcz/psx/main/hub"))() 
+end)
+
+local MainSection = Main:NewSection("Bee swarm simulator")
+
+MainSection:NewButton("kocmoc", "auto farm, auto snowflakes, ect puede lagear un poco", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))() 
+end)
