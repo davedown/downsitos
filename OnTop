@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Downsito Hub V.1.0.7 by Dave_Down#1571", "Ocean")
+local Window = Library.CreateLib("Downsito Hub V.1.0.7 ", "Ocean")
 
 -- MAIN
 local Main = Window:NewTab("Main")
