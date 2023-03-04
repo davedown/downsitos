@@ -97,3 +97,14 @@ local MainSection = Main:NewSection("Bee swarm simulator")
 MainSection:NewButton("kocmoc", "auto farm, auto snowflakes, ect puede lagear un poco", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))() 
 end)
+
+
+
+
+
+
+
+
+-- Creditos
+local Main = Window:NewTab("Credits")
+local MainSection = Credits:NewSection("Dave_Down")
