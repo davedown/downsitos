@@ -111,4 +111,5 @@ local CreditsSection = Credits:NewSection("Dave_Down")
 
 
 -- Server 
-local Server = Window:NewTab("Server")
+local Test = Window:NewTab("Test")
+local TestSection = Main:NewSection("Test")
