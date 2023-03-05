@@ -10,6 +10,10 @@ MainSection:NewButton("Mukuro", "autofarm,kill aura,ect", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
 end)
 
+MainSection:NewButton("HOHO", "autofarm,kill aura,ect", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
 local MainSection = Main:NewSection("aim")
 
 MainSection:NewButton("aimbot", "es un poquito de aim que te da ", function()
