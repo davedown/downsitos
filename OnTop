@@ -106,9 +106,11 @@ MainSection:NewButton("kocmoc", "auto farm, auto snowflakes, ect puede lagear un
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))() 
 end)
 
+local MainSection = Main:NewSection("Bee swarm simulator")
 
-
-
+MainSection:NewButton("criminality", "kill aura,esp,ect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))() 
+end)
 
 
 
