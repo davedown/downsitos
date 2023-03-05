@@ -107,6 +107,8 @@ MainSection:NewButton("kocmoc", "auto farm, auto snowflakes, ect puede lagear un
 end)
 
 
+local MainSection = Main:NewSection("Criminality")
+
 MainSection:NewButton("criminality", "kill aura,esp,ect", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))() 
 end)
