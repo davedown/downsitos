@@ -20,6 +20,10 @@ MainSection:NewButton("aimbot propio", "es un poquito de aim que te da ", functi
     lloadstring(game:HttpGet("https://raw.githubusercontent.com/davedown/dave/main/downsito",true))();
 end)
 
+MainSection:NewButton("silent aim ", "key bind is right shift ", function()
+    lloadstring(game:HttpGet("https://raw.githubusercontent.com/davedown/dave/main/downsito",true))();
+end)
+
 local MainSection = Main:NewSection("KAT")
 
 MainSection:NewButton("owl hub", "esta es una que todos se saben", function()
