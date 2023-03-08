@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Downsito Hub V.1.0.7 ", "Ocean")
+local Window = Library.CreateLib("Downsito Hub V.1.0.7 Discountinued ", "Ocean")
 
 -- MAIN
 local Main = Window:NewTab("Main")
@@ -122,7 +122,7 @@ end)
 
 -- Creditos
 local Credits = Window:NewTab("Credits")
-local CreditsSection = Credits:NewSection("Dave_Down")
+local CreditsSection = Credits:NewSection("Discountinued")
 
-local CreditsSection = Credits:NewSection("https://discord.gg/bGmCkphvPq")
+local CreditsSection = Credits:NewSection("This is discountinued bec of a new ui so this will not have more updates so if this ui doesnt work im deleting this ui")
 
